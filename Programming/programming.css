@@ -1,5 +1,4 @@
 img {
-	width:50%;
 	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 120);
 }
 
@@ -19,9 +18,8 @@ img {
 	margin: auto;
 	padding:12px;
 	position:relative;
-	text-align:center;
+	width:384px;
 }
-
 .imgcontainer:hover .overlay {
 	opacity: 0.5;
 }
@@ -30,9 +28,10 @@ img {
 	box-shadow: 0 0px 20px 8px rgba(0, 0, 100, 120);
 }
 
-.outercont {
+.multiphoto {
 	position:relative;
-	
+	text-align:center;
+	display:flex;
 }
 
 .hvtext {
