@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Test site 1</title>
+		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="programming.css">
+	</head>
+	<body>
+		<!--Navigation sidebar inside folder is different. uses "../ to go up one directory"-->
+		<div class="sidenav">
+			<a href="../index.html">About Me</a>
+			<a href="../Projects/projects.html">My Projects</a>
+			<a href="../Programming/programming.html">Programming</a>
+			<a href="../Artwork/artwork.html">Artwork</a>
+			<a href="../Resume/resume.html">Resumé</a>
+		</div>
+		
+		<!--Content-->
+	  <div class="content">
+		<h2 style="text-align:center;">My Programming Projects:</h2>
+		<p>&nbsp &nbsp I most often use lower-level systems or simulations of such systems to program my small games or simulators. I choose to do this because I want to understand my code and the underlying interactions that occur, rather than relying on a pre-defined physics system for example. Because I mostly write programs for my own self-improvement, most things I program are purposefully chosen to teach myself how to do new things, rather than produce a sellable product.</p>
+		<p>&nbsp &nbsp Lately, I have been writing code using a "fantasy console" called <a href="https://www.lexaloffle.com/pico-8.php">Pico-8</a>. The system simulates limited CPU, RAM, and disk space so writing efficient code under limitations is a challenge I enjoy. I also use Python3, C#, and Java for some projects that require higher processing power or capabilities.</p>
+		<hr>
+		<h3 style="text-align:center;">3d Wireframe Renderer</h3>
+		
+		<!--Paralell images-->
+		<div class="multiphoto">
+			<p class="spacer"></p>
+			<!--First image-->
+			<div class="imgcontainer">
+				<div class="overlay">
+					<p>Gameplay</p>
+				</div>
+				<img src="pzone/pzone.gif">
+			</div>
+			
+			<div class="imgcontainer">
+				<div class="overlay">
+					<p>Menu Animation</p>
+				</div>
+				<img src="pzone/pzone2.gif">
+			</div>
+		</div>
+		
+		<h3 style="text-align:center"><a href="pzone/pzone.html" target="_blank" rel="noopener noreferrer">Play Here</a>  <a href="pzone/pzone_code.lua" target="_blank" rel="noopener noreferrer">View Code</a></h3>
+		<p>&nbsp &nbsp I wrote a wireframe renderer to learn how to use matrix multiplication effectively. It also happens to be a functional recreation of the arcade game "Battlezone". 3D models were manually written tables of coordinates arranged so that the game would draw lines between each entry in a specific order.</p>
+		
+		<hr>
+		
+		<h3 style="text-align:center;">Neural Network</h3>
+		<div class="multiphoto">
+			<div class="imgcontainer">
+				<div class="overlay">
+					<p>Example of predatory behavior</p>
+				</div>
+				<img src="neural_net/net.gif">
+			</div>
+			<div class="imgcontainer">
+				<div class="overlay">
+					<p>Strafing and damage avoidance</p>
+				</div>
+				<img src="neural_net/net2.gif">
+			</div>
+		</div>
+		<h3 style="text-align:center"><a href="neural_net/nn_web.html" target="_blank" rel="noopener noreferrer">Run Demo</a>  <a href="neural_net/nn_web_code.lua" target="_blank" rel="noopener noreferrer">View Code</a></h3>
+		
+		<p>&nbsp &nbsp I wrote a small neural network that showed interesting results. This actual "game" the AIs played was very basic, but it did show improvement over time and the capability of 'learning' how to use different basic strategies.</p>
+		<p>&nbsp &nbsp The original program was written in Java, but the code was lost on my old computer. Playable on this website is a recreation of this system in Pico-8's Lua implementation. This current implementation uses 7 input nodes, 4 middle nodes, and 3 output nodes. The neural net doesn't actively learn, instead using an "evolution" style of progression where each iteration of a network has slight changes from its parent.</p>
+		
+		<hr>
+		
+	  </div>
+	</body>
+</html>
