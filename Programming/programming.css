@@ -1,4 +1,4 @@
-img {
+.imgcontainer img {
 	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 120);
 }
 
@@ -7,7 +7,6 @@ img {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 84px;
 	width: 100%;
 	opacity: 0;
 	transition: .1s ease;
@@ -21,7 +20,7 @@ img {
 	width:384px;
 }
 .imgcontainer:hover .overlay {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 
 .imgcontainer:hover img {
@@ -34,18 +33,17 @@ img {
 	display:flex;
 }
 
-.hvtext {
-	color: white;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}
-
-
 @media only screen and (max-width: 1200px){
 	img {
 		width:100%;
 	}
+}
+
+embed {
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 120);
+	width:100%;
+	height: 500px;
+}
+embed:hover {
+	box-shadow: 0 0px 20px 8px rgba(0, 0, 100, 120);
 }
