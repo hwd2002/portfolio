@@ -1,3 +1,17 @@
+a:link{
+	color: Blue;
+	text-decoration:none;
+}
+a:hover{
+	color: White;
+	text-decoration: underline;
+}
+a:visited{
+	color: Blue;
+	text-decoration:none;
+}
+
+
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 200px; /* Set the width of the sidebar */
@@ -19,7 +33,7 @@
 }
 
 .sidenav a:hover { /*mouse hover*/
-  color: #81C765;
+  color: Blue;
   padding: 6px 12px 12px 20px;
 }
 
@@ -67,4 +81,8 @@ footer {
     font-size: 20px;
     padding: 60px 60px 60px 180px;
   }
+}
+
+span{
+	margin:-3px;
 }
