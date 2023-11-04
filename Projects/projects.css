@@ -3,18 +3,6 @@ img {
 	width:100%;
 }
 
-.overlay {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 150px;
-	width: 100%;
-	opacity: 0;
-	transition: .1s ease;
-	background-color: White;
-}
-
 .imgcontainer {
 	margin: auto;
 	padding:20px;
@@ -26,19 +14,11 @@ img {
 }
 
 .imgcontainer:hover img {
-	box-shadow: 0 0px 20px 8px rgba(50, 50, 50, 120);
-}
-
-.multiphoto {
-	position:relative;
-	text-align:center;
-	display:flex;
+	box-shadow: 0 0px 20px 8px rgba(120, 120, 120, 120);
 }
 
 .hvtext {
-	color: Black;
-	position: absolute;
-	padding:10px;
+	padding-bottom:80px;
 }
 
 @media only screen and (max-width: 1200px){
@@ -48,6 +28,6 @@ img {
 }
 
 body {
-	background:#989898;
+	background:#202233;
 }
 
